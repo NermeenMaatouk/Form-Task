@@ -1,0 +1,87 @@
+.App {
+  padding-top: 3vw;
+  text-align: center;
+  background-color: #081229;
+  color: blanchedalmond;
+  height: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  border-radius: .775vw;
+  background-color: rgb(20, 124, 124);
+  border: .1vw solid rgb(20, 124, 124);
+  width:8vw;
+  height: 2.5vw;
+  color: aliceblue;
+}
+.add{
+  width:15vw;
+  height: 3vw;
+}
+input, select{
+  border-radius: .775vw;
+  width:14vw;
+  height: 2.5vw;
+  align-self: left;
+  position: relative;
+  right: 1vw;
+}
+select{
+  right: 4vw;
+}
+
+form{
+  margin-top: 1vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4vw;
+  width: 90vw;
+  /* border: .1vw solid black; */
+  /* background-color: rgb(27, 83, 83); */
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+}
+li{
+  width:15vw;
+  text-align: left;
+}
+
+fieldset{
+  background-color: #040d1f;
+  border-radius: .775vw;
+  width: 90vw;
+}
+.form{
+  height: 15vw;
+}
+.data{
+  margin-top: 2vw;
+}
+legend{
+  border-radius: .775vw;
+  background-color: rgb(20, 124, 124);
+  border:0vw;
+  height: 4vw;
+  width: 15vw;
+  text-align: center;
+}
+h2{
+  position:relative;
+  bottom: .8vw;
+}
+h3{
+  position:relative;
+  bottom: .5vw;
+}
+
+
+
+
+
